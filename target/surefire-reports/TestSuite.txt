@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 157.898 sec <<< FAILURE! - in TestSuite
+feature(runner.RunCukes)  Time elapsed: 154.916 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: expected [Closed] but found [Resolved]
+Caused by: java.lang.AssertionError: expected [Closed] but found [Resolved]
+

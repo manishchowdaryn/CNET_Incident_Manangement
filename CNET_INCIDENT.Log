@@ -1,0 +1,44 @@
+2018-10-29 12:16:42 INFO  Hook:59 - Chrome Browser Launched Successfully
+2018-10-29 12:17:22 INFO  ReusableSteps:59 - Enter CNet INCIDENT URL in the address bar of the browser
+2018-10-29 12:17:22 INFO  ReusableSteps:90 - Switch to MainFrame
+2018-10-29 12:17:23 INFO  ReusableSteps:108 - Entered Username
+2018-10-29 12:17:23 INFO  ReusableSteps:114 - Entered Password
+2018-10-29 12:17:23 INFO  ReusableSteps:120 - Clicked on Login Button
+2018-10-29 12:17:42 INFO  IncidentManagementSteps:74 - Enter value in filter navigation
+2018-10-29 12:17:43 INFO  IncidentManagementSteps:108 - Click on Create New Button
+2018-10-29 12:17:43 INFO  ReusableSteps:90 - Switch to MainFrame
+2018-10-29 12:17:45 INFO  IncidentManagementSteps:119 - Select Sub Category Name as :Email
+2018-10-29 12:17:49 INFO  IncidentManagementSteps:167 - Select Type of impact as :1 - High
+2018-10-29 12:17:52 INFO  IncidentManagementSteps:130 - Click On Caller LookUP
+2018-10-29 12:17:57 INFO  ReusableSteps:143 - Switch to Multiple Window and Select Text as :Bud Richman
+2018-10-29 12:17:57 INFO  ReusableSteps:152 - Switch to MainFrame
+2018-10-29 12:17:58 INFO  IncidentManagementSteps:176 - Select Type of urgency Name as :1 - High
+2018-10-29 12:18:01 INFO  IncidentManagementSteps:144 - Click On Business Service LookUP
+2018-10-29 12:18:06 INFO  ReusableSteps:143 - Switch to Multiple Window and Select Text as :Blackberry
+2018-10-29 12:18:06 INFO  ReusableSteps:152 - Switch to MainFrame
+2018-10-29 12:18:10 INFO  IncidentManagementSteps:156 - Click On Configuration Item LookUP
+2018-10-29 12:18:15 INFO  ReusableSteps:143 - Switch to Multiple Window and Select Text as :Zoom V.92 USB Modem
+2018-10-29 12:18:15 INFO  ReusableSteps:152 - Switch to MainFrame
+2018-10-29 12:18:19 INFO  IncidentManagementSteps:187 - Click On Assignment Group LookUP
+2018-10-29 12:18:24 INFO  ReusableSteps:143 - Switch to Multiple Window and Select Text as :Service Desk
+2018-10-29 12:18:24 INFO  ReusableSteps:152 - Switch to MainFrame
+2018-10-29 12:18:27 INFO  IncidentManagementSteps:199 - Click On Assignment TO LookUP
+2018-10-29 12:18:32 INFO  ReusableSteps:143 - Switch to Multiple Window and Select Text as :Beth Anglin
+2018-10-29 12:18:32 INFO  ReusableSteps:152 - Switch to MainFrame
+2018-10-29 12:18:33 INFO  IncidentManagementSteps:211 - Enter Short Description
+2018-10-29 12:18:33 INFO  IncidentManagementSteps:221 - Click on Submit Button
+2018-10-29 12:18:36 INFO  IncidentManagementSteps:232 - Verify Priority Value
+2018-10-29 12:18:36 INFO  IncidentManagementSteps:239 - Verify State Value
+2018-10-29 12:18:36 INFO  IncidentManagementSteps:245 - Verify AssignedGroup Value
+2018-10-29 12:18:36 INFO  IncidentManagementSteps:251 - Verify AssignedTo Value
+2018-10-29 12:18:37 INFO  IncidentManagementSteps:263 - Click on Recent Incident Created
+2018-10-29 12:18:40 INFO  IncidentManagementSteps:274 - Verify Major incident Tab is available on screen
+2018-10-29 12:18:40 INFO  IncidentManagementSteps:283 - Tap on Major incident tab button
+2018-10-29 12:18:41 INFO  IncidentManagementSteps:293 - Select Incident State as :[[ChromeDriver: chrome on XP (64e8eac18b020ae093ca94be99cc7002)] -> xpath: //*[@id='incident.state']]
+2018-10-29 12:18:48 INFO  IncidentManagementSteps:315 - Click on Resolution Information Tab
+2018-10-29 12:18:49 INFO  IncidentManagementSteps:325 - Select Resolution Code as :Solved (Work Around)
+2018-10-29 12:18:50 INFO  IncidentManagementSteps:336 - Enter Resolution Note
+2018-10-29 12:18:56 INFO  IncidentManagementSteps:302 - Click on Resolve Button
+2018-10-29 12:18:56 INFO  IncidentManagementSteps:263 - Click on Recent Incident Created
+2018-10-29 12:18:59 INFO  IncidentManagementSteps:357 - Click on Close Incident
+2018-10-29 12:18:59 INFO  Hook:79 - Chrome Browser Closed Successfully

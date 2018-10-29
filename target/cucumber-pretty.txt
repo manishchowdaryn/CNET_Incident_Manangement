@@ -1,0 +1,109 @@
+Feature: CNET INCIDENT AUTOMATION SCENARIOS
+
+  @CNETIncidentFlow
+  Scenario Outline: CNET_IncidentAutomation                                                                                                                         # CNET_IncidentAutomation.feature:4
+    Given Launch Browser and Navigate to CNET INCIDENT URL
+    Then Switch to MainFrame
+    Then Verify whether Login page is correctly opened or not
+    Then Enter Username and Password as "<Username>" and "<Password>"
+    Then Enter Value in Filter Navigation Field Text Box "<FilterValue>"
+    #Then Click on All Button for change request scenario
+    #Then Switch to MainFrame
+    Then Click on Create New Button
+    Then Switch to MainFrame
+    Then Select Sub Category Name as "<subCategoryValue>"
+    Then Select Impact Name as "<impactValue>"
+    Then Click On caller LookUP
+    Then Switch to Multiple Window and Select Text as "<callerValue>"
+    Then Select urgency Name as "<urgencyValue>"
+    Then Click On Business Service LookUP
+    Then Switch to Multiple Window and Select Text as "<businessService>"
+    Then Click On Configuration Item LookUP
+    Then Switch to Multiple Window and Select Text as "<configurationItem>"
+    Then Click On Assigned Group LookUP
+    Then Switch to Multiple Window and Select Text as "<assignedGroup>"
+    Then Click On Assigned To LookUP
+    Then Switch to Multiple Window and Select Text as "<assignedTo>"
+    Then Enter short Description as "<shortDescriptionValue>"
+    Then Click on Submit Button
+    Then Validate Priority as "<priority>" State as "<stateValue>" and Assigned Group as "<assignedGroup>" and Assigned To as "<assignedTo>" from the incident list
+    Then Click on recent Incident Created
+    Then Verify Major incident Tab is available on screen
+    Then Tap on Major incident tab button
+    Then Click on Resolve Button
+    Then Select incident state as "<incidentStateValue>"
+    Then Click on Resolution Information Tab
+    Then Select Resolution Code as "<resolutionCodeValue>"
+    Then Enter Resolution Note as "<resolutionNoteValue>"
+    Then Click on Resolve Button
+    #Then Click On Problem LookUP
+    # Then Switch to Multiple Window and Select Text as "<problemValue>"
+    #Then Verify Major incident Tab is available on screen
+    #Then Tap on Major incident tab button
+    #Then Click on Resolve Button
+    Then Click on recent Incident Created
+    Then Click on Close Incident
+    Then Validate State as "<stateValueAfterCloseIncident>" the incident list
+    Then Switch to Multiple Window
+    Then Click on User Menu Dropdown
+    Then Click on Logout
+
+    Examples: 
+
+  @CNETIncidentFlow
+  Scenario Outline: CNET_IncidentAutomation                                                                                                                      # CNET_IncidentAutomation.feature:53
+    Given Launch Browser and Navigate to CNET INCIDENT URL                                                                                                       # ReusableSteps.launch_Browser_and_Navigate_to_CNet_Incident_URL()
+    Then Switch to MainFrame                                                                                                                                     # ReusableSteps.switch_to_MainFrame()
+    Then Verify whether Login page is correctly opened or not                                                                                                    # ReusableSteps.verify_whether_Login_page_is_correctly_opened_or_not()
+    Then Enter Username and Password as "admin" and "Cnet345$"                                                                                                   # ReusableSteps.enter_Username_and_Password_as_and(String,String)
+    Then Enter Value in Filter Navigation Field Text Box "Incident"                                                                                              # IncidentManagementSteps.enter_Value_in_Filter_navigation_Field_Text_Box(String)
+    #Then Click on All Button for change request scenario
+    #Then Switch to MainFrame
+    Then Click on Create New Button                                                                                                                              # IncidentManagementSteps.clickOnNewButton()
+    Then Switch to MainFrame                                                                                                                                     # ReusableSteps.switch_to_MainFrame()
+    Then Select Sub Category Name as "Email"                                                                                                                     # IncidentManagementSteps.subCategory(String)
+    Then Select Impact Name as "1 - High"                                                                                                                        # IncidentManagementSteps.impactName(String)
+    Then Click On caller LookUP                                                                                                                                  # IncidentManagementSteps.clickOnCaller()
+    Then Switch to Multiple Window and Select Text as "Bud Richman"                                                                                              # ReusableSteps.HandleMultipleWindows(String)
+    Then Select urgency Name as "1 - High"                                                                                                                       # IncidentManagementSteps.urgencyName(String)
+    Then Click On Business Service LookUP                                                                                                                        # IncidentManagementSteps.clickOnBusinessService()
+    Then Switch to Multiple Window and Select Text as "Blackberry"                                                                                               # ReusableSteps.HandleMultipleWindows(String)
+    Then Click On Configuration Item LookUP                                                                                                                      # IncidentManagementSteps.configurationItem()
+    Then Switch to Multiple Window and Select Text as "Zoom V.92 USB Modem"                                                                                      # ReusableSteps.HandleMultipleWindows(String)
+    Then Click On Assigned Group LookUP                                                                                                                          # IncidentManagementSteps.clickOnAssigedGroup()
+    Then Switch to Multiple Window and Select Text as "Service Desk"                                                                                             # ReusableSteps.HandleMultipleWindows(String)
+    Then Click On Assigned To LookUP                                                                                                                             # IncidentManagementSteps.clickOnAssignedTo()
+    Then Switch to Multiple Window and Select Text as "Beth Anglin"                                                                                              # ReusableSteps.HandleMultipleWindows(String)
+    Then Enter short Description as "Sample Testing"                                                                                                             # IncidentManagementSteps.shortDescription(String)
+    Then Click on Submit Button                                                                                                                                  # IncidentManagementSteps.click_On_SubmitButton()
+    Then Validate Priority as "1 - Critical" State as "In Progress" and Assigned Group as "Service Desk" and Assigned To as "Beth Anglin" from the incident list # IncidentManagementSteps.verifyValuesAfterIncidentCreated(String,String,String,String)
+    Then Click on recent Incident Created                                                                                                                        # IncidentManagementSteps.selectIncident()
+    Then Verify Major incident Tab is available on screen                                                                                                        # IncidentManagementSteps.verifyMajorIncident()
+    Then Tap on Major incident tab button                                                                                                                        # IncidentManagementSteps.tapOnMajorIncident()
+    Then Click on Resolve Button                                                                                                                                 # IncidentManagementSteps.resolveButton()
+    Then Select incident state as "Resolved"                                                                                                                     # IncidentManagementSteps.incidentState(String)
+    Then Click on Resolution Information Tab                                                                                                                     # IncidentManagementSteps.resolutionInformation()
+    Then Select Resolution Code as "Solved (Work Around)"                                                                                                        # IncidentManagementSteps.resolutionCode(String)
+    Then Enter Resolution Note as "Testing"                                                                                                                      # IncidentManagementSteps.resolutionNote(String)
+    Then Click on Resolve Button                                                                                                                                 # IncidentManagementSteps.resolveButton()
+    #Then Click On Problem LookUP
+    # Then Switch to Multiple Window and Select Text as "<problemValue>"
+    #Then Verify Major incident Tab is available on screen
+    #Then Tap on Major incident tab button
+    #Then Click on Resolve Button
+    Then Click on recent Incident Created                                                                                                                        # IncidentManagementSteps.selectIncident()
+    Then Click on Close Incident                                                                                                                                 # IncidentManagementSteps.closeIncident()
+    Then Validate State as "Closed" the incident list                                                                                                            # IncidentManagementSteps.validateStateAfterCloseIncident(String)
+      java.lang.AssertionError: expected [Closed] but found [Resolved]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:513)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+      	at org.testng.Assert.assertEquals(Assert.java:116)
+      	at org.testng.Assert.assertEquals(Assert.java:190)
+      	at org.testng.Assert.assertEquals(Assert.java:200)
+      	at steps.IncidentManagementSteps.validateStateAfterCloseIncident(IncidentManagementSteps.java:356)
+      	at ✽.Then Validate State as "Closed" the incident list(CNET_IncidentAutomation.feature:46)
+
+    Then Switch to Multiple Window                                                                                                                               # ReusableSteps.switchToMultipleWindow()
+    Then Click on User Menu Dropdown                                                                                                                             # ReusableSteps.click_on_User_Menu_Dropdown()
+    Then Click on Logout                                                                                                                                         # ReusableSteps.click_on_Logout()

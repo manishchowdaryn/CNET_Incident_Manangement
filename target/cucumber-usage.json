@@ -1,0 +1,552 @@
+[
+  {
+    "source": "^Verify Major incident Tab is available on screen$",
+    "steps": [
+      {
+        "name": "Verify Major incident Tab is available on screen",
+        "aggregatedDurations": {
+          "average": 3.719809232,
+          "median": 3.719809232
+        },
+        "durations": [
+          {
+            "duration": 3.719809232,
+            "location": "CNET_IncidentAutomation.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter Resolution Note as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Enter Resolution Note as \"Testing\"",
+        "aggregatedDurations": {
+          "average": 0.59805272,
+          "median": 0.59805272
+        },
+        "durations": [
+          {
+            "duration": 0.59805272,
+            "location": "CNET_IncidentAutomation.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Switch to Multiple Window and Select Text as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Switch to Multiple Window and Select Text as \"Bud Richman\"",
+        "aggregatedDurations": {
+          "average": 5.035126643,
+          "median": 5.035126643
+        },
+        "durations": [
+          {
+            "duration": 5.035126643,
+            "location": "CNET_IncidentAutomation.feature:17"
+          }
+        ]
+      },
+      {
+        "name": "Switch to Multiple Window and Select Text as \"Blackberry\"",
+        "aggregatedDurations": {
+          "average": 5.082317406,
+          "median": 5.082317406
+        },
+        "durations": [
+          {
+            "duration": 5.082317406,
+            "location": "CNET_IncidentAutomation.feature:20"
+          }
+        ]
+      },
+      {
+        "name": "Switch to Multiple Window and Select Text as \"Zoom V.92 USB Modem\"",
+        "aggregatedDurations": {
+          "average": 5.276131904,
+          "median": 5.276131904
+        },
+        "durations": [
+          {
+            "duration": 5.276131904,
+            "location": "CNET_IncidentAutomation.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "Switch to Multiple Window and Select Text as \"Service Desk\"",
+        "aggregatedDurations": {
+          "average": 4.983803461,
+          "median": 4.983803461
+        },
+        "durations": [
+          {
+            "duration": 4.983803461,
+            "location": "CNET_IncidentAutomation.feature:24"
+          }
+        ]
+      },
+      {
+        "name": "Switch to Multiple Window and Select Text as \"Beth Anglin\"",
+        "aggregatedDurations": {
+          "average": 5.00757589,
+          "median": 5.00757589
+        },
+        "durations": [
+          {
+            "duration": 5.00757589,
+            "location": "CNET_IncidentAutomation.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Close Incident$",
+    "steps": [
+      {
+        "name": "Click on Close Incident",
+        "aggregatedDurations": {
+          "average": 2.276107956,
+          "median": 2.276107956
+        },
+        "durations": [
+          {
+            "duration": 2.276107956,
+            "location": "CNET_IncidentAutomation.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter short Description as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Enter short Description as \"Sample Testing\"",
+        "aggregatedDurations": {
+          "average": 0.825462005,
+          "median": 0.825462005
+        },
+        "durations": [
+          {
+            "duration": 0.825462005,
+            "location": "CNET_IncidentAutomation.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on recent Incident Created$",
+    "steps": [
+      {
+        "name": "Click on recent Incident Created",
+        "aggregatedDurations": {
+          "average": 0.529062937,
+          "median": 0.529062937
+        },
+        "durations": [
+          {
+            "duration": 0.504851093,
+            "location": "CNET_IncidentAutomation.feature:30"
+          },
+          {
+            "duration": 0.553274782,
+            "location": "CNET_IncidentAutomation.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click On Business Service LookUP$",
+    "steps": [
+      {
+        "name": "Click On Business Service LookUP",
+        "aggregatedDurations": {
+          "average": 3.645107916,
+          "median": 3.645107916
+        },
+        "durations": [
+          {
+            "duration": 3.645107916,
+            "location": "CNET_IncidentAutomation.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Validate Priority as \"([^\"]*)\" State as \"([^\"]*)\" and Assigned Group as \"([^\"]*)\" and Assigned To as \"([^\"]*)\" from the incident list$",
+    "steps": [
+      {
+        "name": "Validate Priority as \"1 - Critical\" State as \"In Progress\" and Assigned Group as \"Service Desk\" and Assigned To as \"Beth Anglin\" from the incident list",
+        "aggregatedDurations": {
+          "average": 3.096012597,
+          "median": 3.096012597
+        },
+        "durations": [
+          {
+            "duration": 3.096012597,
+            "location": "CNET_IncidentAutomation.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Select urgency Name as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Select urgency Name as \"1 - High\"",
+        "aggregatedDurations": {
+          "average": 0.430937516,
+          "median": 0.430937516
+        },
+        "durations": [
+          {
+            "duration": 0.430937516,
+            "location": "CNET_IncidentAutomation.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Tap on Major incident tab button$",
+    "steps": [
+      {
+        "name": "Tap on Major incident tab button",
+        "aggregatedDurations": {
+          "average": 0.562662214,
+          "median": 0.562662214
+        },
+        "durations": [
+          {
+            "duration": 0.562662214,
+            "location": "CNET_IncidentAutomation.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click On Assigned To LookUP$",
+    "steps": [
+      {
+        "name": "Click On Assigned To LookUP",
+        "aggregatedDurations": {
+          "average": 3.586264438,
+          "median": 3.586264438
+        },
+        "durations": [
+          {
+            "duration": 3.586264438,
+            "location": "CNET_IncidentAutomation.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Launch Browser and Navigate to CNET INCIDENT URL$",
+    "steps": [
+      {
+        "name": "Launch Browser and Navigate to CNET INCIDENT URL",
+        "aggregatedDurations": {
+          "average": 38.605049995,
+          "median": 38.605049995
+        },
+        "durations": [
+          {
+            "duration": 38.605049995,
+            "location": "CNET_IncidentAutomation.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter Username and Password as \"([^\"]*)\" and \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Enter Username and Password as \"admin\" and \"Cnet345$\"",
+        "aggregatedDurations": {
+          "average": 2.10700972,
+          "median": 2.10700972
+        },
+        "durations": [
+          {
+            "duration": 2.10700972,
+            "location": "CNET_IncidentAutomation.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Select Sub Category Name as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Select Sub Category Name as \"Email\"",
+        "aggregatedDurations": {
+          "average": 4.929129609,
+          "median": 4.929129609
+        },
+        "durations": [
+          {
+            "duration": 4.929129609,
+            "location": "CNET_IncidentAutomation.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Select incident state as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Select incident state as \"Resolved\"",
+        "aggregatedDurations": {
+          "average": 0.22754699,
+          "median": 0.22754699
+        },
+        "durations": [
+          {
+            "duration": 0.22754699,
+            "location": "CNET_IncidentAutomation.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click On caller LookUP$",
+    "steps": [
+      {
+        "name": "Click On caller LookUP",
+        "aggregatedDurations": {
+          "average": 3.617076053,
+          "median": 3.617076053
+        },
+        "durations": [
+          {
+            "duration": 3.617076053,
+            "location": "CNET_IncidentAutomation.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click On Configuration Item LookUP$",
+    "steps": [
+      {
+        "name": "Click On Configuration Item LookUP",
+        "aggregatedDurations": {
+          "average": 4.278569104,
+          "median": 4.278569104
+        },
+        "durations": [
+          {
+            "duration": 4.278569104,
+            "location": "CNET_IncidentAutomation.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click On Assigned Group LookUP$",
+    "steps": [
+      {
+        "name": "Click On Assigned Group LookUP",
+        "aggregatedDurations": {
+          "average": 3.539836611,
+          "median": 3.539836611
+        },
+        "durations": [
+          {
+            "duration": 3.539836611,
+            "location": "CNET_IncidentAutomation.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Resolve Button$",
+    "steps": [
+      {
+        "name": "Click on Resolve Button",
+        "aggregatedDurations": {
+          "average": 5.979576742,
+          "median": 5.979576742
+        },
+        "durations": [
+          {
+            "duration": 6.05526658,
+            "location": "CNET_IncidentAutomation.feature:33"
+          },
+          {
+            "duration": 5.903886905,
+            "location": "CNET_IncidentAutomation.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify whether Login page is correctly opened or not$",
+    "steps": [
+      {
+        "name": "Verify whether Login page is correctly opened or not",
+        "aggregatedDurations": {
+          "average": 0.01639711,
+          "median": 0.01639711
+        },
+        "durations": [
+          {
+            "duration": 0.01639711,
+            "location": "CNET_IncidentAutomation.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Create New Button$",
+    "steps": [
+      {
+        "name": "Click on Create New Button",
+        "aggregatedDurations": {
+          "average": 0.36603974,
+          "median": 0.36603974
+        },
+        "durations": [
+          {
+            "duration": 0.36603974,
+            "location": "CNET_IncidentAutomation.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter Value in Filter Navigation Field Text Box \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Enter Value in Filter Navigation Field Text Box \"Incident\"",
+        "aggregatedDurations": {
+          "average": 19.905837006,
+          "median": 19.905837006
+        },
+        "durations": [
+          {
+            "duration": 19.905837006,
+            "location": "CNET_IncidentAutomation.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Select Resolution Code as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Select Resolution Code as \"Solved (Work Around)\"",
+        "aggregatedDurations": {
+          "average": 1.322941199,
+          "median": 1.322941199
+        },
+        "durations": [
+          {
+            "duration": 1.322941199,
+            "location": "CNET_IncidentAutomation.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Submit Button$",
+    "steps": [
+      {
+        "name": "Click on Submit Button",
+        "aggregatedDurations": {
+          "average": 0.310460972,
+          "median": 0.310460972
+        },
+        "durations": [
+          {
+            "duration": 0.310460972,
+            "location": "CNET_IncidentAutomation.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Select Impact Name as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Select Impact Name as \"1 - High\"",
+        "aggregatedDurations": {
+          "average": 3.508627278,
+          "median": 3.508627278
+        },
+        "durations": [
+          {
+            "duration": 3.508627278,
+            "location": "CNET_IncidentAutomation.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Switch to MainFrame$",
+    "steps": [
+      {
+        "name": "Switch to MainFrame",
+        "aggregatedDurations": {
+          "average": 0.208424227,
+          "median": 0.208424227
+        },
+        "durations": [
+          {
+            "duration": 0.177402421,
+            "location": "CNET_IncidentAutomation.feature:6"
+          },
+          {
+            "duration": 0.239446034,
+            "location": "CNET_IncidentAutomation.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Resolution Information Tab$",
+    "steps": [
+      {
+        "name": "Click on Resolution Information Tab",
+        "aggregatedDurations": {
+          "average": 6.453127198,
+          "median": 6.453127198
+        },
+        "durations": [
+          {
+            "duration": 6.453127198,
+            "location": "CNET_IncidentAutomation.feature:35"
+          }
+        ]
+      }
+    ]
+  }
+]

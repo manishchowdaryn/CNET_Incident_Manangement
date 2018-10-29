@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [CNET_Incident]">
+  <test name="CNET_Incident Automation Scenarios">
+    <classes>
+      <class name="runner.RunCukes"/>
+    </classes>
+  </test> <!-- CNET_Incident Automation Scenarios -->
+  <test name="CNET_Incident Automation Scenarios(failed)">
+    <classes>
+      <class name="runner.RunCukes">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.RunCukes -->
+    </classes>
+  </test> <!-- CNET_Incident Automation Scenarios(failed) -->
+</suite> <!-- Failed suite [CNET_Incident] -->

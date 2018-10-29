@@ -1,0 +1,700 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5262808771,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "CNET_IncidentAutomation",
+        "description": "",
+        "id": "cnet-incident-automation-scenarios;cnet-incidentautomation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1034495,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38605049995,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch Browser and Navigate to CNET INCIDENT URL",
+            "match": {
+              "location": "ReusableSteps.launch_Browser_and_Navigate_to_CNet_Incident_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177402421,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Switch to MainFrame",
+            "match": {
+              "location": "ReusableSteps.switch_to_MainFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16397110,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify whether Login page is correctly opened or not",
+            "match": {
+              "location": "ReusableSteps.verify_whether_Login_page_is_correctly_opened_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2107009720,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter Username and Password as \"admin\" and \"Cnet345$\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 32
+                },
+                {
+                  "val": "Cnet345$",
+                  "offset": 44
+                }
+              ],
+              "location": "ReusableSteps.enter_Username_and_Password_as_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19905837006,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter Value in Filter Navigation Field Text Box \"Incident\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Incident",
+                  "offset": 49
+                }
+              ],
+              "location": "IncidentManagementSteps.enter_Value_in_Filter_navigation_Field_Text_Box(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 366039740,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 10,
+                "value": "#Then Click on All Button for change request scenario"
+              },
+              {
+                "line": 11,
+                "value": "#Then Switch to MainFrame"
+              }
+            ],
+            "line": 12,
+            "name": "Click on Create New Button",
+            "match": {
+              "location": "IncidentManagementSteps.clickOnNewButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 239446034,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Switch to MainFrame",
+            "match": {
+              "location": "ReusableSteps.switch_to_MainFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4929129609,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Select Sub Category Name as \"Email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email",
+                  "offset": 29
+                }
+              ],
+              "location": "IncidentManagementSteps.subCategory(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3508627278,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Select Impact Name as \"1 - High\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1 - High",
+                  "offset": 23
+                }
+              ],
+              "location": "IncidentManagementSteps.impactName(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3617076053,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click On caller LookUP",
+            "match": {
+              "location": "IncidentManagementSteps.clickOnCaller()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5035126643,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Switch to Multiple Window and Select Text as \"Bud Richman\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bud Richman",
+                  "offset": 46
+                }
+              ],
+              "location": "ReusableSteps.HandleMultipleWindows(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 430937516,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Select urgency Name as \"1 - High\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1 - High",
+                  "offset": 24
+                }
+              ],
+              "location": "IncidentManagementSteps.urgencyName(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3645107916,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click On Business Service LookUP",
+            "match": {
+              "location": "IncidentManagementSteps.clickOnBusinessService()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5082317406,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Switch to Multiple Window and Select Text as \"Blackberry\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blackberry",
+                  "offset": 46
+                }
+              ],
+              "location": "ReusableSteps.HandleMultipleWindows(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4278569104,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click On Configuration Item LookUP",
+            "match": {
+              "location": "IncidentManagementSteps.configurationItem()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5276131904,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Switch to Multiple Window and Select Text as \"Zoom V.92 USB Modem\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Zoom V.92 USB Modem",
+                  "offset": 46
+                }
+              ],
+              "location": "ReusableSteps.HandleMultipleWindows(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3539836611,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click On Assigned Group LookUP",
+            "match": {
+              "location": "IncidentManagementSteps.clickOnAssigedGroup()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4983803461,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Switch to Multiple Window and Select Text as \"Service Desk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Service Desk",
+                  "offset": 46
+                }
+              ],
+              "location": "ReusableSteps.HandleMultipleWindows(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3586264438,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click On Assigned To LookUP",
+            "match": {
+              "location": "IncidentManagementSteps.clickOnAssignedTo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5007575890,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Switch to Multiple Window and Select Text as \"Beth Anglin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beth Anglin",
+                  "offset": 46
+                }
+              ],
+              "location": "ReusableSteps.HandleMultipleWindows(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 825462005,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter short Description as \"Sample Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sample Testing",
+                  "offset": 28
+                }
+              ],
+              "location": "IncidentManagementSteps.shortDescription(String)"
+            },
+            "matchedColumns": [
+              11
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 310460972,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Click on Submit Button",
+            "match": {
+              "location": "IncidentManagementSteps.click_On_SubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3096012597,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Validate Priority as \"1 - Critical\" State as \"In Progress\" and Assigned Group as \"Service Desk\" and Assigned To as \"Beth Anglin\" from the incident list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1 - Critical",
+                  "offset": 22
+                },
+                {
+                  "val": "In Progress",
+                  "offset": 46
+                },
+                {
+                  "val": "Service Desk",
+                  "offset": 82
+                },
+                {
+                  "val": "Beth Anglin",
+                  "offset": 116
+                }
+              ],
+              "location": "IncidentManagementSteps.verifyValuesAfterIncidentCreated(String,String,String,String)"
+            },
+            "matchedColumns": [
+              9,
+              10,
+              12,
+              13
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 504851093,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click on recent Incident Created",
+            "match": {
+              "location": "IncidentManagementSteps.selectIncident()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3719809232,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Verify Major incident Tab is available on screen",
+            "match": {
+              "location": "IncidentManagementSteps.verifyMajorIncident()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 562662214,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Tap on Major incident tab button",
+            "match": {
+              "location": "IncidentManagementSteps.tapOnMajorIncident()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6055266580,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click on Resolve Button",
+            "match": {
+              "location": "IncidentManagementSteps.resolveButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 227546990,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Select incident state as \"Resolved\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resolved",
+                  "offset": 26
+                }
+              ],
+              "location": "IncidentManagementSteps.incidentState(String)"
+            },
+            "matchedColumns": [
+              16
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6453127198,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click on Resolution Information Tab",
+            "match": {
+              "location": "IncidentManagementSteps.resolutionInformation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1322941199,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Select Resolution Code as \"Solved (Work Around)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Solved (Work Around)",
+                  "offset": 27
+                }
+              ],
+              "location": "IncidentManagementSteps.resolutionCode(String)"
+            },
+            "matchedColumns": [
+              14
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 598052720,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Enter Resolution Note as \"Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing",
+                  "offset": 26
+                }
+              ],
+              "location": "IncidentManagementSteps.resolutionNote(String)"
+            },
+            "matchedColumns": [
+              15
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5903886905,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Click on Resolve Button",
+            "match": {
+              "location": "IncidentManagementSteps.resolveButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 553274782,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 39,
+                "value": "#Then Click On Problem LookUP"
+              },
+              {
+                "line": 40,
+                "value": "# Then Switch to Multiple Window and Select Text as \"\u003cproblemValue\u003e\""
+              },
+              {
+                "line": 41,
+                "value": "#Then Verify Major incident Tab is available on screen"
+              },
+              {
+                "line": 42,
+                "value": "#Then Tap on Major incident tab button"
+              },
+              {
+                "line": 43,
+                "value": "#Then Click on Resolve Button"
+              }
+            ],
+            "line": 44,
+            "name": "Click on recent Incident Created",
+            "match": {
+              "location": "IncidentManagementSteps.selectIncident()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2276107956,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Click on Close Incident",
+            "match": {
+              "location": "IncidentManagementSteps.closeIncident()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2140478348,
+              "error_message": "java.lang.AssertionError: expected [Closed] but found [Resolved]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:135)\r\n\tat org.testng.Assert.assertEquals(Assert.java:116)\r\n\tat org.testng.Assert.assertEquals(Assert.java:190)\r\n\tat org.testng.Assert.assertEquals(Assert.java:200)\r\n\tat steps.IncidentManagementSteps.validateStateAfterCloseIncident(IncidentManagementSteps.java:356)\r\n\tat ✽.Then Validate State as \"Closed\" the incident list(CNET_IncidentAutomation.feature:46)\r\n",
+              "status": "failed"
+            },
+            "line": 46,
+            "name": "Validate State as \"Closed\" the incident list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Closed",
+                  "offset": 19
+                }
+              ],
+              "location": "IncidentManagementSteps.validateStateAfterCloseIncident(String)"
+            },
+            "matchedColumns": [
+              18
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "Switch to Multiple Window",
+            "match": {
+              "location": "ReusableSteps.switchToMultipleWindow()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "Click on User Menu Dropdown",
+            "match": {
+              "location": "ReusableSteps.click_on_User_Menu_Dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "Click on Logout",
+            "match": {
+              "location": "ReusableSteps.click_on_Logout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@CNETIncidentFlow"
+          }
+        ]
+      }
+    ],
+    "name": "CNET INCIDENT AUTOMATION SCENARIOS",
+    "description": "",
+    "id": "cnet-incident-automation-scenarios",
+    "keyword": "Feature",
+    "uri": "CNET_IncidentAutomation.feature"
+  }
+]
